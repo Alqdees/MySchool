@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowRecordActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ScrollViewSize" >
+
+        <TextView
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_name"/>
+
+        <ImageView
+            android:id="@+id/image_vi1"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/iv_name"
+            android:padding="10dp" />
+
+        <ImageView
+            android:id="@+id/image_vi2"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/image_vi1"
+            android:padding="10dp" />
+        <ImageView
+            android:id="@+id/image_vi3"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/image_vi2"
+            android:padding="10dp" />
+
+        <ImageView
+            android:id="@+id/image_vi4"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/image_vi3"
+            android:padding="10dp" />
+
+        <ImageView
+            android:id="@+id/image_vi5"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/image_vi4"
+            android:padding="10dp" />
+        <ImageView
+            android:id="@+id/image_vi6"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/image_vi5"
+            android:padding="10dp" />
+    </RelativeLayout>
+
+</ScrollView>
